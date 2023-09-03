@@ -1,0 +1,11 @@
+Metrics conclusions:
+
+PIQE - [0,100] - quality [high,low] -> 7.547736141 GOOD [https://www.mathworks.com/help/images/ref/piqe.html]
+
+NIQE - [0,inf] - quality [high,low] -> 13.67045171 GOOD [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8481978/]
+
+PSNR - [30,40] - quality [low,high] -> 19.44816966 BAD  [due to rescaling of images]
+
+SSIM - [-1,1]  - quality [low,high] -> 0.829031589 GOOD [https://en.wikipedia.org/wiki/Structural_similarity#:~:text=The%20resultant%20SSIM%20index%20is,of%20size%208%C3%978.]
+
+MSE  - [0,inf] - quality [high,low] -> 95.49513532 NORM [https://www.scirp.org/journal/paperinformation.aspx?paperid=90911]
